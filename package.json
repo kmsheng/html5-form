@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kmsheng/html5-form-example#readme",
   "devDependencies": {
-    "webpack": "^4.5.0"
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
   }
 }
