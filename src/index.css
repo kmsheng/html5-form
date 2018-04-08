@@ -1,2 +1,4 @@
-body {
+#form > label {
+  display: block;
+  margin: 14px 0;
 }
