@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kmsheng/html5-form-example/issues"
   },
-  "homepage": "https://github.com/kmsheng/html5-form-example#readme"
+  "homepage": "https://github.com/kmsheng/html5-form-example#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0"
+  }
 }
