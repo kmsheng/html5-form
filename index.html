@@ -6,6 +6,25 @@
 </head>
 <body>
   <h1>HTML5 Form</h1>
+
+  <form id="form" role="form" method="post" action="/some-place-to-post">
+    <label>
+      <span>Name</span>
+      <input type="text" name="name" placeholder="Full name" autocomplete="name" required />
+    </label>
+
+    <label>
+      <span>Email</span>
+      <input type="email" name="email" placeholder="name@example.com" autocomplete="email" required />
+    </label>
+
+    <label>
+      <span>Phone</span>
+      <input type="tel" name="phone" placeholder="+1-555-555-1212" autocomplete="tel-national" required />
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
   <script src="dist/bundle.js"></script>
 </body>
 </html>
